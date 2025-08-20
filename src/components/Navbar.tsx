@@ -5,7 +5,17 @@ import Image from "next/image";
 import { Disclosure } from "@headlessui/react";
 
 export const Navbar = () => {
-  const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
+  const navigation = [
+    // eslint-disable-next-line react/jsx-key
+    <span className="text-purple-800 border border-purple-600 p-2 rounded-full dark:text-purple-300 dark:border-purple-200 hover:text-purple-500 dark:hover:text-purple-200">
+      Home
+    </span>,
+    "Product",
+    "Features",
+    "Pricing",
+    "Company",
+    "Blog",
+  ];
 
   return (
     <div className="w-full">
@@ -22,7 +32,9 @@ export const Navbar = () => {
                 className="w-8"
               />
             </span>
-            <span>Nexus</span>
+            <span className="hover:text-purple-600 dark:hover:text-purple-300">
+              Nexus
+            </span>
           </span>
         </Link>
 
@@ -32,7 +44,7 @@ export const Navbar = () => {
           <div className="hidden mr-3 lg:flex nav__item">
             <Link
               href="/"
-              className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5"
+              className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5 dark:hover:bg-indigo-800 hover:bg-purple-700"
             >
               Get Started
             </Link>
@@ -97,7 +109,7 @@ export const Navbar = () => {
               <li className="mr-3 nav__item" key={index}>
                 <Link
                   href="/"
-                  className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800"
+                  className="inline-block px-4 py-2 text-lg font-normal text-gray-700 no-underline rounded-md dark:text-gray-200 hover:text-purple-500  focus:outline-none  dark:hover:text-purple-300"
                 >
                   {menu}
                 </Link>

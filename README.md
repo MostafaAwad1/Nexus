@@ -1,8 +1,7 @@
 # Nexus - Landing Page Template with Next.js & Tailwind CSS
 
-Nexus is a free landing page & marketing website template for startups and indie projects. Its built with Next.js & TailwindCSS.
+Nexus is a landing page & marketing website template for startups and indie projects. Its built with Next.js & TailwindCSS.
 And its completely open-source.
-
 
 ## How to use
 
@@ -47,5 +46,3 @@ Deploy this template using [Vercel](https://vercel.com?utm_source=github&utm_med
 Mostafa Mahmoud
 
 ---
-
-[![image](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=web3templates&utm_campaign=oss)

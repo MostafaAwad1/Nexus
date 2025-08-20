@@ -159,7 +159,7 @@ export function PopupWidget() {
                         <input
                           type="text"
                           id="full_name"
-                          placeholder="John Doe"
+                          placeholder="Mick Doe"
                           {...register("name", {
                             required: "Full name is required",
                             maxLength: 80,
@@ -272,17 +272,6 @@ export function PopupWidget() {
                         className="text-xs text-center text-gray-400"
                         id="result"
                       >
-                        <span>
-                          Powered by{" "}
-                          <a
-                            href="https://Web3Forms.com"
-                            className="text-gray-600"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Web3Forms
-                          </a>
-                        </span>
                       </p>
                     </form>
                   )}
