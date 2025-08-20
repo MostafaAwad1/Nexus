@@ -16,7 +16,7 @@ export const Cta = () => {
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
           <a
             rel="noopener"
-            className="inline-block py-3 mx-auto text-lg font-medium text-center text-indigo-600 bg-white rounded-md px-7 lg:px-10 lg:py-5 hover:bg-slate-100 cursor-pointer "
+            className="inline-block py-3 mx-auto text-lg font-medium text-center text-indigo-600 bg-white rounded-md px-7 lg:px-10 lg:py-5 hover:bg-purple-100 cursor-pointer "
           >
             Download for Free
           </a>
